@@ -1,0 +1,22 @@
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+    // Kullanıcı kimlik doğrulaması yapılmış kullanıcılar için kurallar
+    match /users/{userId} {
+      allow read, write: if request.auth != null && request.auth.uid == userId;
+    }
+    
+    // Hayvanlar koleksiyonu için kurallar
+    match /animals/{animalId} {
+      allow read: if request.auth != null;
+      allow create: if request.auth != null;
+      allow update, delete: if request.auth != null && 
+        request.auth.uid == resource.data.userId;
+    }
+
+    // Tüm koleksiyonlar için geçici test kuralı (sadece geliştirme aşamasında kullanın)
+    match /{document=**} {
+      allow read, write: if true;
+    }
+  }
+} 
