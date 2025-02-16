@@ -21,7 +21,7 @@ Projeyi yerel ortamınıza kurmak için aşağıdaki adımları izleyin:
 
 2. Proje dizinine gidin:
     ```sh
-    cd hayvan-takip
+    cd hayvan-takip-
     ```
 
 3. Gerekli bağımlılıkları yükleyin:
