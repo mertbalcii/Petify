@@ -61,7 +61,7 @@ Projeyi yerel ortamınıza kurmak için aşağıdaki adımları izleyin:
 (screenshots/add_animal.jpg)
 
 ### Hayvan Ekleme
-(screenshots/added-animal.png)
+(screenshots/added-animal.jpg)
 
 ### Sahiplendirme Ekranı
 (screenshots/adoption.jpg)
