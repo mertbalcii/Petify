@@ -45,3 +45,26 @@ Projeyi yerel ortamınıza kurmak için aşağıdaki adımları izleyin:
 - Expo
 - Firebase (Authentication ve Firestore)
 - React Navigation
+
+## Ekran Görüntüleri
+
+### Giriş Ekranı
+(screenshots/login.jpg)
+
+### Kayıt Ekranı
+(screenshots/register.jpg)
+
+### Ana Ekran
+(screenshots/home_screen.jpg)
+
+### Hayvan Listesi
+(screenshots/add_animal.jpg)
+
+### Hayvan Ekleme
+(screenshots/added-animal.png)
+
+### Sahiplendirme Ekranı
+(screenshots/adoption.jpg)
+
+### Sahiplendirme Cevaplandırma Ekranı
+(screenshots/adoption_request.jpg)
